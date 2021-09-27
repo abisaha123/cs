@@ -2,11 +2,13 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body, html {
     margin: 0;
     width: 100%;
     height: 100%;
 }
+
 body {
     background-color: #2a2a2a;
     font-family: OpenSans,sans-serif;
@@ -15,11 +17,13 @@ body {
     line-height: 1.42857143;
     color: #333;
 }
+
 body * {
     text-rendering: optimizeLegibility;
     -webkit-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
 }
+
 .lds-facebook {
     display: none;
     position: relative;
@@ -56,6 +60,7 @@ body * {
         height: 32px;
     }
 }
+
 .verify {
     transition: .3s;
     animation: enlarge 3s;
@@ -63,10 +68,12 @@ body * {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
+
 .errorMsg {
     text-align: center;
     display: none;
 }
+
 @keyframes enlarge {
     0% {
         transform: scale(0.8)
@@ -78,42 +85,52 @@ body * {
         transform: scale(0.8)
     }
 }
+
 .status {
     display: none;
 }
+
 .successText {
     color: #43d133;
 }
+
 .errorText {
     color: #d13333;
 }
+
 #wrapper, #wrapper > div {
     height: 100%;
 }
+
 #wrapper {
     background-color: #2a2a2a;
 }
+
 .generate_main_platform {
     margin-bottom: 50px;
     text-align: center;
 }
+
 .generate_main_platform h1 {
     margin: 20px auto 0 auto;
     text-align: center;
     color: #fff;
     font-size: 28px !important;
 }
+
 .generate_main_platform ul, .player-stats ul {
     padding: 0;
     margin: 0;
     list-style: none;
     text-align: center;
 }
+
 .generate_main_platform ul li {
     display: inline-block;
     margin: 10px;
     background: #fff;
     width: 30%;
+
     font-family: 'BurbankBigCondensed-Black' !important;
     font-size: 26px;
     position: relative;
@@ -122,15 +139,18 @@ body * {
     color: #000;
     transition: .15s;
 }
+
 .generate_main_platform ul li:hover {
     background: #21aadb;
     color: #fff;
     cursor: pointer;
 }
+
 .platform-active {
     background: #21aadb!important;
     color: #fff!important;
 }
+
 .generate_main_platform ul .platform-active::before {
     color: #FFF;
     content: "";
@@ -142,17 +162,25 @@ body * {
     background: url(../css/img/btn_hover.html) no-repeat 100% 0;
     background-size: 100% 100%;
 }
+
 .generate_main_platform ul li:hover > i {
     color: #fff;
 }
+
 .generate_main_platform ul li i {
     font-size: 42px;
     margin-top: 15px;
     color: #21aadb;
 }
+
 .platform-active i {
     color: #FFF!important;
 }
+
+.bk-img {
+    background-image:url(../../cdn2.unrealengine.com/Fortnite/redeem-code/BG-3840x2290-f9a79c0b0acce8ea1dd3784d8ae96ea1efa91fa4.jpg)
+}
+
 .holderInput {
     position: relative;
     display: table;
@@ -160,6 +188,7 @@ body * {
     width: 350px;
     margin: auto;
 }
+
 .icon {
     background: #fff;
     border: none;
@@ -181,6 +210,7 @@ body * {
     font-weight: 700;
     font-style: normal
 }
+
 body {
     font-family: 'Burbank', sans-serif;
     color: #FFF;
@@ -192,6 +222,7 @@ body {
     height: 100%;
     /* overflow: hidden */
 }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -203,6 +234,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
+
 article,
 aside,
 details,
@@ -218,6 +250,7 @@ section,
 summary {
     display: block
 }
+
 audio,
 canvas,
 progress,
@@ -225,10 +258,12 @@ video {
     display: inline-block;
     vertical-align: baseline
 }
+
 audio:not([controls]) {
     display: none;
     height: 0
 }
+
 [hidden],
 template {
     display: none
